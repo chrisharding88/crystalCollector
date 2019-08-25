@@ -1,0 +1,68 @@
+#header-name{
+    text-align: center;
+    font-size: 65px;
+}
+
+header{
+    border-bottom: 2px solid;
+    padding: 15px;
+}
+
+.winLoseBoard{
+    text-align: center;
+    margin-top: 3.5%;
+}
+
+#wins,
+#losses {
+    display: inline;
+    padding: 13%;
+}
+
+.gems{
+    display: block;
+    margin-top:15%
+}
+
+#circle{
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 120px;
+    background: red;
+}
+
+
+
+#roundSquare {
+    border-radius: 15px;
+    border-width: 15px;
+    border: 2px solid #28e3f7;
+    margin-left:24%;
+    background:#28e3f7;
+    padding: 90px;
+  }
+ 
+
+#square{
+    border: 2px solid green;
+    padding:80px;
+    margin-left:50%;
+    background: green;
+}
+
+#triangle {
+    width: 0px;
+    height: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 200px solid yellow;
+    margin-left: 75%;
+  }
+
+
+
+
+
+.scoreboard{
+    margin-top: 20%;
+}
