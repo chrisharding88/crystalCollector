@@ -49,12 +49,15 @@ header{
  
 
 #rectangle{
-    border: 2px solid green;
+    border-width: 10px;
+    border-style: solid;
     width:320px;
     height:220px;
     margin-left:50%;
     margin-top:-13%;
-    background: green;
+    background: #1cfa07;
+    border-top-color: #0f9103;
+    border-left-color: #0f9103;
 }
 
 #triangle {
@@ -80,7 +83,7 @@ header{
 #random,
 #user{
     display: inline;
-    padding: 18%;
+    padding: 16%;
     font-size: 35px;
 }
 
