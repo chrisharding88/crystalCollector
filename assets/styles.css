@@ -1,6 +1,9 @@
 #header-name{
     text-align: center;
-    font-size: 55px;
+    font-size: 65px;
+    font-family: 'orbe', serif;
+    font-style: normal;
+    font-weight: 600;
 }
 
 header{

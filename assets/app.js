@@ -57,6 +57,15 @@ for (var i = 0; i < gemOptions.length; i++){
 }
 
 
+function reset(){
+    randomNum = Math.floor(Math.random() * 120) + 19; 
+    userNum = 0;
+    gemOptions = [];
+    $("#randomNum").html(randomNum);
+
+}
+
+
 
 $('.jewels').on('click', function(){
     gemValue = ($(this).attr('data-crystalvalue'));
@@ -70,8 +79,15 @@ $('.jewels').on('click', function(){
 
     if (randomNum === userNum){
         alert ('You Win!!!');
+        winCounter++;
+        $('#winsCount').html(winCounter);
+        reset();
+        
     } else if (userNum > randomNum){
         alert('You Lose!!!');
+        lossCounter++;
+        $('#lossCount').html(lossCounter);
+        reset();
     }
   
 
