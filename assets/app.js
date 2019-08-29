@@ -91,7 +91,23 @@ $('.jewels').on('click', function(){
     }
   
 
+
+
 });
+
+
+
+// Changes to Night Mode after the button is clicked
+$('button').on('click', function(){
+    $('body').css({'background-color':'black'});
+    $('header').css({'border-bottom-style' : 'solid' , 'border-bottom-color': 'white', 'border-border-width': '2px'});
+    $('.winLoseBoard').css({'color': 'black'});
+    $('.scoreboard').css({'color': 'black'});
+    
+});
+
+
+
 
 
 

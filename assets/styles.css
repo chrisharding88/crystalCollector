@@ -1,19 +1,32 @@
+body{
+    background: #04c4c1;
+}
+
+
 #header-name{
     text-align: center;
     font-size: 65px;
     font-family: 'orbe', serif;
     font-style: normal;
     font-weight: 600;
+    letter-spacing: 60px;
+    color: whitesmoke;
 }
 
 header{
     border-bottom: 2px solid;
+    border-bottom-color: white;
     padding: 2px;
 }
 
 .winLoseBoard{
     text-align: center;
-    margin-top: 3.5%;
+    margin-top: 1.5%;
+    border: 1px solid black;
+    width:40%;
+    margin-left: 27.5%;
+    background: white;
+    color: #04c4c1;
 }
 
 #wins,
@@ -41,9 +54,11 @@ header{
 #roundSquare {
     border-radius: 15px;
     border-width: 15px;
-    border: 2px solid #28e3f7;
+    border-style: solid;
     margin-left:28%;
-    background:#28e3f7;
+    background:linear-gradient(to right, #7b07ad, #c421ff );
+    border-top-color: #c421ff;
+    border-left-color: #c421ff;
     width: 250px;
     height: 250px;
     margin-top:-13%;
@@ -58,7 +73,7 @@ header{
     height:220px;
     margin-left:50%;
     margin-top:-13%;
-    background: #1cfa07;
+    background: linear-gradient(to right, #1cfa07, #018504);
     border-top-color: #0f9103;
     border-left-color: #0f9103;
 }
@@ -68,14 +83,23 @@ header{
     height: 0px;
     border-left: 160px solid transparent;
     border-right: 160px solid transparent;
-    border-top: 200px solid yellow;
+    border-top: 200px solid #ffc421;
     margin-left: 75%;
     margin-top: -11%;
   }
 
+  .change{
+      text-align: center;
+      margin-top: 5.5%;
+  }
 
 .scoreboard{
-    margin-top: 8%;
+    margin-top: 1.5%;
+    background: white;
+    color: #04c4c1;
+    width: 80%;
+    margin-left: 10%;
+    border: 2px solid black;
 }
 
 #instructions{
@@ -86,10 +110,12 @@ header{
 #random,
 #user{
     display: inline;
-    padding: 16%;
+    padding: 11%;
     font-size: 35px;
+    margin-left:5%;
 }
 
 .numbers{
-    margin-top:3%;
+    margin-top:2%;
 }
+
