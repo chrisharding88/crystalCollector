@@ -90,7 +90,7 @@ header{
 
   .change{
       text-align: center;
-      margin-top: 5.5%;
+      margin-top: 3%;
   }
 
 .scoreboard{
@@ -106,6 +106,12 @@ header{
     text-align: center;
 }
 
+button{
+    font-size:30px;
+    background: white;
+    padding: 15px;
+}
+
 
 #random,
 #user{
@@ -117,5 +123,10 @@ header{
 
 .numbers{
     margin-top:2%;
+}
+
+#randomNum{
+    color: red;
+    font-weight: bold;
 }
 
