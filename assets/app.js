@@ -102,7 +102,7 @@ function reset(){
 }
 
 
-// Sets up a click event to apply to every gem 
+// Sets up a click event to apply every gem 
 $('.jewels').on('click', function(){
     
     //Using $(this) to specify that the gemValue will be extracted from the gem
