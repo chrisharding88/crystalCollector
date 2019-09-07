@@ -45,7 +45,7 @@ for (var i = 0; i < gemOptions.length; i++){
    // increments to help identify the indexes in the array
     if (i === 0){
 
-    // Sets the gem value
+    //Grabs the random number. However it's going to be displayed as a string. 
     gem1 = $('#circle');
     gem1.attr('data-crystalvalue', gemOptions[i]);
     } else if (i === 1){

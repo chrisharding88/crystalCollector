@@ -44,11 +44,11 @@ header{
 }
 
 #circle{
-    border: 2px solid red;
+    border: 6px solid red;
     border-radius: 50%;
     width:250px;
     height:250px;
-    background: linear-gradient(to right, #820707,#fa0202);
+    background: linear-gradient(to right, #470404,#fa0202);
     margin-left:5%;
     position: relative;
 }
@@ -59,7 +59,7 @@ header{
     border-width: 15px;
     border-style: solid;
     margin-left:28%;
-    background:linear-gradient(to right, #7b07ad, #c421ff );
+    background:linear-gradient(to right, #360340, #c421ff );
     border-top-color: #c421ff;
     border-left-color: #c421ff;
     width: 250px;
@@ -76,7 +76,7 @@ header{
     height:220px;
     margin-left:50%;
     margin-top:-13%;
-    background: linear-gradient(to right, #1cfa07, #018504);
+    background: linear-gradient(to right, #1cfa07, #023003);
     border-top-color: #0f9103;
     border-left-color: #0f9103;
 }
